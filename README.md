@@ -49,15 +49,19 @@ Las siguientes imágenes están ubicadas en la carpeta `docs/` e ilustran el com
 ### 🎨 Personalización de atributos
 
 - **Texto personalizado**
+  
   ![Texto modificado](docs/modificado-atributo-texto.png)
 
 - **Color de fondo personalizado**
+  
   ![Fondo modificado](docs/modificando-atributo-bg-color.png)
 
 - **Color de texto personalizado**
+  
   ![Texto color modificado](docs/modificando-atributo-text-color.png)
 
 ### 🔢 Contador con valor inicial distinto
+
 ![Inicio contador](docs/modificando-inicio-contador.png)
 
 ## 📁 Estructura del proyecto
