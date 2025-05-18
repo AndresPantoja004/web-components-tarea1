@@ -6,7 +6,7 @@ class Clickcontador extends HTMLElement {
     this.limite = 0;
     this.texto = "Click aqui!";
     this.bg = "#000";
-    this.textColor ="#fff";
+    this.                                                                                                                 u  ="#fff";
     
   }
 
