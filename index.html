@@ -3,12 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contador Clicks</title>
-    <script defer src="my-element-pantoja.js"></script>
+    <title>Componente Card</title>
 </head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+    }
+    product-card {
+        width: 300px;
+        height: 400px;
+    }
+</style>
 <body>
-    <click-contador-pantoja  contador="10" limite="20" texto="NO">
+    <product-card
+        title="CUTE TODDLER SHOES"
+        price="182"
+        image="https://static.vecteezy.com/system/resources/thumbnails/046/323/598/small_2x/pair-of-colorful-sports-shoes-for-active-lifestyle-png.png"
+        category="Kids Fashion"
+        description="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+        rating="4"
+        bg-base = ""
+        bg-button = ""
+        text-color = "black"
+    ></product-card>
+    <script src="my-card.js"></script>
 
-    </click-countador-pantoja>
 </body>
 </html>
