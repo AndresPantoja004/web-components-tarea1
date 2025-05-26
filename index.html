@@ -4,11 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contador Clicks</title>
-    <script defer src="my-element-pantoja.js"></script>
 </head>
 <body>
     <click-contador-pantoja  contador="10" limite="20" texto="NO">
-
     </click-countador-pantoja>
+      <br><br>
+
+    <mi-formulario-pantoja></mi-formulario-pantoja>
+
+     <script type="module">
+        import './components/click-contador-pantoja.js';
+        import './components/mi-formulario-pantoja.js';
+
+        document.querySelector('click-contador-pantoja').addEventListener('limite-alcanzado', e => {
+        alert(e.detail.mensaje);
+        });
+  </script>
 </body>
 </html>
